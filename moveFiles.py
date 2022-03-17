@@ -21,6 +21,7 @@ observer.schedule(event_handler, folder_to_track, recursive=True)
 observer.start()
 
 print("hola cabe")
+print("todos putos")
 
 try:
     while True:
