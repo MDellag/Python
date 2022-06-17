@@ -20,6 +20,9 @@ observer = Observer()
 observer.schedule(event_handler, folder_to_track, recursive=True)
 observer.start()
 
+print("hola cabe")
+print("sarqw3eweqw")
+
 try:
     while True:
         time.sleep(10)
