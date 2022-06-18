@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -e "TZ=UTC" -e "POSTGRES_DB=django" -e "POSTGRES_ROOT_PASSWORD=root"  -e "POSTGRES_USER=django" -e "POSTGRES_HOST_AUTH_METHOD=trust" --name django -p 5432:5432 -d postgres
